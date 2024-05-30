@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717062282776,
+  "lastUpdate": 1717062840451,
   "repoUrl": "https://github.com/Airyzz/flutter_benchmark",
   "entries": {
     "Benchmark": [
@@ -142,6 +142,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "95th Percentile Build Time",
             "value": 0.964,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "36567925+Airyzz@users.noreply.github.com",
+            "name": "Airyzz",
+            "username": "Airyzz"
+          },
+          "committer": {
+            "email": "36567925+Airyzz@users.noreply.github.com",
+            "name": "Airyzz",
+            "username": "Airyzz"
+          },
+          "distinct": true,
+          "id": "13f34269d625e2126ca6fa627b0c696e1eef92cc",
+          "message": "Update benchmark.yml",
+          "timestamp": "2024-05-30T09:51:22+09:30",
+          "tree_id": "395645f9be0f65aca0e4632893a40c6f3553872d",
+          "url": "https://github.com/Airyzz/flutter_benchmark/commit/13f34269d625e2126ca6fa627b0c696e1eef92cc"
+        },
+        "date": 1717062840230,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Build Time",
+            "value": 0.6654234234234232,
+            "unit": "ms"
+          },
+          {
+            "name": "Average Raster Time",
+            "value": 0.4006454545454548,
+            "unit": "ms"
+          },
+          {
+            "name": "Worst Build Time",
+            "value": 1.303,
+            "unit": "ms"
+          },
+          {
+            "name": "Worst Raster Time",
+            "value": 0.611,
+            "unit": "ms"
+          },
+          {
+            "name": "95th Percentile Build Time",
+            "value": 1.207,
             "unit": "ms"
           }
         ]
